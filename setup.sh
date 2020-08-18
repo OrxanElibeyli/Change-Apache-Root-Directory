@@ -23,3 +23,6 @@ echo "SETUP:  changing mode of /etc/apache2/apache2.conf file";
 sudo chmod o+w /etc/apache2/apache2.conf
 echo "SETUP:  changing mode of /etc/apache2/sites-available/000-default.conf file";
 sudo chmod o+w /etc/apache2/sites-available/000-default.conf
+
+echo "SETUP:  setting up man page";
+sudo cp card.1 /usr/share/man/man1
