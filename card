@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$1" = "-c" ];then
+	php $HOME/card/card.php -c
+else
+	php $HOME/card/card.php
+fi
+
