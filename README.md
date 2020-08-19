@@ -1,7 +1,7 @@
 <pre>
- <h2>                            CHANGE APACHE ROOT DIRECTORY
-                                         CARD
-                                   ORKHAN ALIBAYLI</h2>
+ <h2>                  CHANGE APACHE ROOT DIRECTORY
+                               CARD
+                         ORKHAN ALIBAYLI</h2>
 </pre>                  
 <br>
 <h3> This is screenshout of CARD program. You can find more details about CARD below.</h3>
