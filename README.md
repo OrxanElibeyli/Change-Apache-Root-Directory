@@ -23,19 +23,19 @@ program tested in Kali Linux. But should work in Debian based systems.
 
 INSTALLING:
 
- step1:  go to directory where you want to download source code files.
- step2:  git clone https://github.com/OrxanElibeyli/Change-Apache-Root-Directory.git
- step3:  cd Change-Apache-Root-Directory
- step4:  chmod +x setup.sh
- step5:  ./setup.sh
+ - step1:  go to directory where you want to download source code files.
+ - step2:  git clone https://github.com/OrxanElibeyli/Change-Apache-Root-Directory.git
+ - step3:  cd Change-Apache-Root-Directory
+ - step4:  chmod +x setup.sh
+ - step5:  ./setup.sh
 
 -----------------------------------------------------------------------
 
 USAGE:
 
 card [-c]
-   if -c do not given then program ask for directory from user.
-   if -c is given then current directory setting up as apache root directory
+   - if -c do not given then program ask for directory from user.
+   - if -c is given then current directory setting up as apache root directory
 
 
 for details you can see man page of CARD program: man card
