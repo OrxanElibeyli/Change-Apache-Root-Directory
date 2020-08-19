@@ -154,6 +154,7 @@ function processConfigFiles()
 
 
     //echo $rootDir;
+    
 
 
 
@@ -163,10 +164,21 @@ function processConfigFiles()
         AllowOverride None
         Require all granted
     </Directory>\n";
+    
+    
+    $comand="cat " . CONFIG_FILE_2 . " | grep " . $rootDir;
 
-    echo "\nCARD:  Adding datas to  your apache2.conf file: ";
-    if(file_put_contents(CONFIG_FILE_2,$append,FILE_APPEND)==false) die("can not append datas to apache2.conf file");
-    echo "Done\n";
+
+
+    if(!shell_exec($comand))
+    {
+        echo "\nCARD:  Adding datas to  your apache2.conf file: ";
+        if(file_put_contents(CONFIG_FILE_2,$append,FILE_APPEND)==false) die("can not append datas to apache2.conf file");
+        echo "Done\n";
+    }
+
+
+    
 
     echo "\nCARD:  Process successfully completed:\n";
     echo "       Apache root directory was changed from " . ltrim($str) . " to " . $rootDir . ".\n";

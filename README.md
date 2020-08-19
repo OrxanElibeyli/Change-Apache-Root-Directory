@@ -1,9 +1,14 @@
-                CHANGE APACHE ROOT DIRECTORY
-                            CARD
-                       ORKHAN ALIBAYLI
+<pre>
+ <h2>                            CHANGE APACHE ROOT DIRECTORY
+                                         CARD
+                                   ORKHAN ALIBAYLI</h2>
+</pre>                  
+<br>
+<h3> This is screenshout of CARD program. You can find more details about CARD below.</h3>
+<img src="card.png" style="width:60%; margin:auto;">
 
 
-ABOUT:
+**ABOUT:**
 
  This program used for changing apache server root directory. Program
 get directory as string from user and process apache config files.The
@@ -13,7 +18,7 @@ program.
 
 ---------------------------------------------------------------------
 
-WARNING:
+**WARNING:**
  
  CARD program only work in Linux based systems ( no Windows OS ).
 However program did not tested in all Linux distros. This version of
@@ -21,7 +26,7 @@ program tested in Kali Linux. But should work in Debian based systems.
 
 ----------------------------------------------------------------------
 
-INSTALLING:
+**INSTALLING:**
 
  - step1:  go to directory where you want to download source code files.
  - step2:  git clone https://github.com/OrxanElibeyli/Change-Apache-Root-Directory.git
@@ -31,7 +36,7 @@ INSTALLING:
 
 -----------------------------------------------------------------------
 
-USAGE:
+**USAGE:**
 
 card [-c]
    - if -c do not given then program ask for directory from user.
@@ -42,13 +47,13 @@ for details you can see man page of CARD program: man card
 
 -----------------------------------------------------------------------
 
-AUTHOR
+**AUTHOR**
 
-ORKHAN ALIBAYLI
+*ORKHAN ALIBAYLI*
 
 -----------------------------------------------------------------------
 
-COPYRIGHT
+**COPYRIGHT**
 
 ALL right reserved.
 
